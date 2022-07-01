@@ -30,3 +30,5 @@
         * `ping ML0-CACHE-HIT`
         * `ssh ML0-CACHE-HIT`
         * `curl http://ML0-CACHE-HIT/`
+
+[上一课](lesson1.md) | [目录](README.md) | [下一课](lesson3.md)
