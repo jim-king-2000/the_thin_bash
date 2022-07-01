@@ -26,7 +26,7 @@
 
 1. 查看主机名
     * `hostname` - 系统显示本机的主机名。在我的机器上，显示的是ML0-CACHE-HIT。
-    * 主机名有点像域名，可以在局域网（同一网段）中替代IP地址。
+    * 主机名有点像域名，可以在局域网（同一网段）中替代IP地址。使用主机名，就不怕主机的IP地址变化了。
         * `ping ML0-CACHE-HIT`
         * `ssh ML0-CACHE-HIT`
         * `curl http://ML0-CACHE-HIT/`
