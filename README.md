@@ -6,6 +6,6 @@
 
 ## 目录
 1. [本书目标](lesson0.md)
-1. bash使用
+1. [bash使用](lesson1.md)
 1. bash常用命令
 1. bash脚本
