@@ -29,7 +29,15 @@
         * `ping ML0-CACHE-HIT`
         * `ssh ML0-CACHE-HIT`
         * `curl http://ML0-CACHE-HIT/`
-1. 查看帮助
+1. 拷贝远程文件
+    * `scp {source} {dest}`
+        * Linux/Win都可用。
+        * 支持本地到远程、远程到本地、远程到远程的拷贝。
+        * 远程文件的格式为 - `{user_name}@{hostname_or_ip}:{path}`。
+        * 文件名可以带通配符。
+        * 示例
+            * `scp ./cert/*.pem root@ML0-CACHE-HIT:/etc/nginx/cert/`
+3. 查看帮助
     * `man netstat`
 
 [上一课](lesson1.md) | [目录](README.md) | [下一课](lesson3.md)
