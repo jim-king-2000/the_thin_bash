@@ -14,6 +14,12 @@
 ## 查看网络
 1. 查看所有网卡的信息
     * `ifconfig`
-1. 
-1. 
-1. 
+1. 查看域名解析
+    * `dig www.baidu.com`
+    * `nslookup www.baidu.com`
+1. 查看端口占用
+    * `lsof -i:22`
+    * `netstat -anp`
+    * `ss -anp`
+1. 查看本机IP地址
+    * `hostname -I`
