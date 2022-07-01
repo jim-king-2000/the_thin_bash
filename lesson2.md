@@ -38,7 +38,7 @@
         * 示例
             * `scp ./cert/*.pem root@ML0-CACHE-HIT:/etc/nginx/cert/`
 1. ssh运行耗时脚本
-    * 在ssh中运行耗时脚本，一旦ssh终端，运行中的脚本将不复存在。
+    * 在ssh中运行耗时脚本，一旦ssh中断，运行中的脚本将不复存在。
     * 使用`tmux`可以解决ssh运行耗时脚本的问题。
         * `tmux new -s session_name` - 创建tmux session
         * `watch -n 2 free` - 运行耗时脚本
