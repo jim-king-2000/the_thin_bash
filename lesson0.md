@@ -12,4 +12,4 @@
 3. copy/paste。在不同的系统、终端和ssh客户端上，copy/paste的快捷键各不相同。
 4. 高深的bash脚本技巧。放过自己，用python吧。
 
-[目录](readme.md) | [下一章](lesson1.md)
+[目录](README.md) | [下一章](lesson1.md)
