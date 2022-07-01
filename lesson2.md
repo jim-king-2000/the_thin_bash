@@ -29,4 +29,4 @@
     * 主机名有点像域名，可以在局域网（同一网段）中替代IP地址。
         * `ping ML0-CACHE-HIT`
         * `ssh ML0-CACHE-HIT`
-        * `curl http://ML0-CACHE-HIT/
+        * `curl http://ML0-CACHE-HIT/`
