@@ -8,4 +8,5 @@
 1. [本书目标](lesson0.md)
 1. [bash使用](lesson1.md)
 1. [bash常用命令](lesson2.md)
-1. bash脚本
+1. [bash脚本](lesson3.md)
+1. [环境变量](lesson4.md)
