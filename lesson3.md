@@ -9,6 +9,7 @@
     * `source my_script.sh`
     * `. my_script.sh`
 
+## bash脚本调试
 1. bash脚本调试。将脚本中每一条命令和结果都打印出来。
     * `bash -x my_script.sh`
 
