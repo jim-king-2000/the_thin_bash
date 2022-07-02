@@ -10,3 +10,4 @@
 1. [bash常用命令](lesson2.md)
 1. [bash脚本](lesson3.md)
 1. [环境变量](lesson4.md)
+1. [附录](appendix.md)
