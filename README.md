@@ -1,5 +1,8 @@
 # The Thin Bash
+
 [![](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+
 写给程序员的bash教程
 
 ## 作者简介
