@@ -11,3 +11,6 @@
 
 1. bash脚本调试。将脚本中每一条命令和结果都打印出来。
     * `bash -x my_script.sh`
+
+
+[上一课](lesson2.md) | [目录](README.md) | [下一课](lesson4.md)
