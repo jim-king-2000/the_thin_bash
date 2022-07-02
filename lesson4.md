@@ -39,6 +39,9 @@
         * /etc/environment
 
 ## 为某一个进程设置专属环境变量
-1. `name0=value0 name1=value1 command
+1. `name0=value0 name1=value1 command`
 2. 示例
     * `NODE_OPTIONS=--openssl-legacy-provider DEBUG=oidc-provider:* ISSUER=http://localhost:7000 MONGODB_URI=mongodb://test:111@47.97.195.81:8282/test nodemon src/server.mjs --watch src`
+
+
+[上一课](lesson3.md) | [目录](README.md)
