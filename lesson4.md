@@ -44,4 +44,4 @@
     * `NODE_OPTIONS=--openssl-legacy-provider DEBUG=oidc-provider:* ISSUER=http://localhost:7000 MONGODB_URI=mongodb://test:111@47.97.195.81:8282/test nodemon src/server.mjs --watch src`
 
 
-[上一课](lesson3.md) | [目录](README.md)
+[上一课](lesson3.md) | [目录](README.md) | [附录](appendix.md)
