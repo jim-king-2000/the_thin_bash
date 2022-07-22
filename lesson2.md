@@ -29,23 +29,23 @@
            * `ping ML0-CACHE-HIT`
            * `ssh ML0-CACHE-HIT`
            * `curl http://ML0-CACHE-HIT/`
-   1. 拷贝远程文件
-       * `scp {source} {dest}`
-           * Linux/Win都可用。
-           * 支持本地到远程、远程到本地、远程到远程的拷贝。
-           * 远程文件的格式为 - `{user_name}@{hostname_or_ip}:{path}`。
-           * 文件名可以带通配符。
-           * 示例
-               * `scp ./cert/*.pem root@ML0-CACHE-HIT:/etc/nginx/cert/`
-   1. ssh运行耗时脚本
-       * 在ssh中运行耗时脚本，一旦ssh中断，运行中的脚本将不复存在。
-       * 使用`tmux`可以解决ssh运行耗时脚本的问题。
-           * `tmux new -s session_name` - 创建tmux session
-           * `watch -n 2 free` - 运行耗时脚本
-           * `ctrl + b, d` - detach tmux
-           * `tmux ls` - 列举tmux session
-           * `tmux a -t session_name` - 恢复tmux session
-   1. 查看帮助
-       * `man netstat`
+1. ## 拷贝远程文件
+    * `scp {source} {dest}`
+        * Linux/Win都可用。
+        * 支持本地到远程、远程到本地、远程到远程的拷贝。
+        * 远程文件的格式为 - `{user_name}@{hostname_or_ip}:{path}`。
+        * 文件名可以带通配符。
+        * 示例
+            * `scp ./cert/*.pem root@ML0-CACHE-HIT:/etc/nginx/cert/`
+1. ## ssh运行耗时脚本
+    * 在ssh中运行耗时脚本，一旦ssh中断，运行中的脚本将不复存在。
+    * 使用`tmux`可以解决ssh运行耗时脚本的问题。
+        * `tmux new -s session_name` - 创建tmux session
+        * `watch -n 2 free` - 运行耗时脚本
+        * `ctrl + b, d` - detach tmux
+        * `tmux ls` - 列举tmux session
+        * `tmux a -t session_name` - 恢复tmux session
+1. ## 查看帮助
+    * `man netstat`
 
 [上一课](lesson1.md) | [目录](README.md) | [下一课](lesson3.md)
